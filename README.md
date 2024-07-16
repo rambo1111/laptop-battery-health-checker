@@ -11,10 +11,10 @@ After running this command you'll see
 ```
 Your directory/
 |
-├── build                 # Delete this
-├── builder.spec                # Delete this
+├── build                 # Delete this(optional)
+├── builder.spec          # Delete this(optional)
 └── dist/
-    └── builder.exe          # Your exe file
+    └── builder.exe       # Your exe file
 ```
 
 [`commands_to_sign_the_exe.md`](commands_to_sign_the_exe.md) Second run these(optional)
