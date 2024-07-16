@@ -1,6 +1,10 @@
 # laptop-battery-health-checker
+### You need these
+~~~powershell
+pip install beautifulsoup4 lxml pyinstaller
+~~~
 
-# Installation
+### Installation
 
 [`command_to_create_exe.md`](command_to_create_exe.md) First run this.
 
