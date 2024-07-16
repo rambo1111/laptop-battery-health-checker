@@ -1,5 +1,2 @@
-beautifulsoup4
-lxml
 flask
 gunicorn
-pyinstaller
