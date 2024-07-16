@@ -4,7 +4,7 @@
 pip install beautifulsoup4 lxml pyinstaller
 ~~~
 
-### Installation
+### Creating exe file
 
 [`command_to_create_exe.md`](command_to_create_exe.md) First run this.
 
