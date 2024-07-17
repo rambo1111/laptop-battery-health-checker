@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1c1c1c;
     color: #e0e0e0;
-    margin: 0;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
     flex-direction: column;
+    scale: 0.90;
+    overflow-x: hidden;
+    height: 95vh;
 }
 
 .header {
