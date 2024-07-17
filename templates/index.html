@@ -8,15 +8,16 @@
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
-    <h1>Download Laptop Battery Health Checker Software</h1>
-    <p>Click the link below to download the software:</p>
-    <a href="https://www.mediafire.com/file/3s31wdujd9towa6/LBHC.zip/file" download>Click to download</a>
-
-    <h2>Tutorial Video</h2>
-    <p>Watch the tutorial video below to learn how to use the software:</p>
-    <video width="560" height="315" controls>
-        <source src="{{ url_for('static', filename='video.mp4') }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="container">
+        <h1>Laptop Battery Health Checker Software</h1>
+        <p>Click the link below to download the software:</p>
+        <a href="{{ url_for('static', filename='LBHC.exe') }}" download>Click to download</a>
+        <br><br>
+        <p>Watch the tutorial video below to learn how to use the software:</p>
+        <video width="560" height="315" controls>
+            <source src="{{ url_for('static', filename='video.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </body>
 </html>
