@@ -8,6 +8,27 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.github-link {
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.github-link:hover {
+    background-color: #555;
 }
 
 .container {
